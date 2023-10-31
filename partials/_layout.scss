@@ -27,7 +27,6 @@
 
 main {
     color: $white-normal;
-    min-width: 80vh;
 
     display: flex;
     flex-direction: column;
@@ -72,17 +71,15 @@ main {
 }
 
 @media screen and (max-width: 768px){
-    main{
-        max-width: 60vh;
+    main {
         font-size: 28px;
         h1{
-
-            padding: 2 14px;
-            width: 150%;
+            padding: 0 14px;
+            width: 100%;
         }
 
         p{
-            font-size: x-small;
+            font-size: 14px;
         }
     }
 }
@@ -276,3 +273,6 @@ footer {
     }
 }
 
+.content__main{
+    display: flex;
+}
