@@ -37,7 +37,7 @@ main {
 
     h1{
         text-align: center;
-        line-height: 150%;
+        line-height: 100%;
         max-width: 940px;
         font-size: 46px;
     }
@@ -73,16 +73,16 @@ main {
 
 @media screen and (max-width: 768px){
     main{
-        min-width: 60vh;
-        
+        max-width: 60vh;
+        font-size: 28px;
         h1{
-            font-size: 34px;
-            padding: 0 14px;
-            width: 100%;
+
+            padding: 2 14px;
+            width: 150%;
         }
 
         p{
-            font: 14px;
+            font-size: x-small;
         }
     }
 }
