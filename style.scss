@@ -29,7 +29,10 @@ svg {
 img {
     width: 100%;
 }
-
+.header-logo > .logo {
+    width: 180px;
+    border-radius: 4px;
+}
 a{
     cursor: pointer;
     text-decoration: none;
